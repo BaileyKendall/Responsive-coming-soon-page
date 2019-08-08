@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+/* desktop content container */
+.desktop-container {
+  max-width: 1300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.item1 {
+  border: 5px solid black;
+}
+
+.item1 .logo {}
+
+.item1 .main-heading {
+  font-size: 5em;
+}
