@@ -3,9 +3,11 @@
 }
 
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   display: flex;
   justify-content: center;
+  height: 100vh;
+  background: rgb(239, 191, 207)
 }
 
 /* desktop content container */
@@ -20,14 +22,54 @@ body {
   flex: 1;
   align-items: center;
   justify-content: center;
+  webkit-box-shadow: -7px 14px 31px 9px rgba(158, 158, 158, 1);
+  -moz-box-shadow: -7px 14px 31px 9px rgba(158, 158, 158, 1);
+  box-shadow: -7px 14px 31px 9px rgba(158, 158, 158, 1);
+  background: #fff;
 }
 
 .item1 {
-  border: 5px solid black;
+  align-self: flex-start;
+  height: 800px;
+  background: url("images/bg-pattern-desktop.svg") no-repeat center center/cover;
 }
 
-.item1 .logo {}
+.item1 .logo {
+  margin-top: 49px;
+  width: 160px;
+}
 
 .item1 .main-heading {
-  font-size: 5em;
+  font-size: 4em;
+  margin-top: 127px;
+  margin-bottom: 0;
+  font-weight: lighter;
+}
+
+.item1-inner {
+  margin-right: 76px;
+  margin-left: 111px;
+}
+
+.emphasis {
+  font-weight: 400;
+}
+
+form {}
+
+form input {
+  padding: 12px;
+  padding-left: 32px;
+  padding-right: 53px;
+}
+
+form button {
+  margin-left: -10px;
+  padding: 16px;
+  padding-left: 30px;
+  padding-right: 35px;
+  border-bottom-left-radius: 25%;
+  border-top-left-radius: 25%;
+  border-bottom-right-radius: 25%;
+  border-top-right-radius: 25%;
 }
